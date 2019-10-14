@@ -1,5 +1,5 @@
 {
-  "name": "module-temando-uninstall",
+  "name": "magentoese/module-temando-uninstall",
   "description": "",
   "require": {
     "php": "~7.1.0|~7.2.0|~7.3.0"
