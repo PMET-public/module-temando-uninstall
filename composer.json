@@ -1,5 +1,5 @@
 {
-  "name": "magentoese/module-temando-uninstall",
+  "name": "magentoese/module-uninstall-cleanup",
   "description": "",
   "require": {
     "php": "~7.1.0|~7.2.0|~7.3.0"
@@ -13,7 +13,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MagentoEse\\TemandoUninstall\\": ""
+      "MagentoEse\\UninstallCleanup\\": ""
     }
   }
 }
