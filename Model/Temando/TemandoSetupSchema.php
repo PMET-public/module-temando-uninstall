@@ -1,6 +1,6 @@
 <?php
 
-namespace MagentoEse\TemandoUninstall\Setup;
+namespace MagentoEse\UninstallCleanup\Model\Temando;
 
 
 class TemandoSetupSchema

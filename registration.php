@@ -2,4 +2,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'MagentoEse_TemandoUninstall', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'MagentoEse_UninstallCleanup', __DIR__);

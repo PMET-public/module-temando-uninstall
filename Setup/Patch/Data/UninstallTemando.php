@@ -2,18 +2,18 @@
 /**
  * Refer to LICENSE.txt distributed with the Temando Shipping module for notice of license
  */
-namespace MagentoEse\TemandoUninstall\Setup\Patch\Data;
+namespace MagentoEse\UninstallCleanup\Setup\Patch\Data;
 
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\App\ResourceConnection;
 use Magento\Framework\Setup\SchemaSetupInterface;
-use MagentoEse\TemandoUninstall\Setup\TemandoRmaSetupSchema as RmaSetupSchema;
-use MagentoEse\TemandoUninstall\Setup\TemandoSetupData as SetupData;
-use MagentoEse\TemandoUninstall\Setup\TemandoSetupSchema as SetupSchema;
+use MagentoEse\UninstallCleanup\Model\Temando\TemandoRmaSetupSchema as RmaSetupSchema;
+use MagentoEse\UninstallCleanup\Model\Temando\TemandoSetupData as SetupData;
+use MagentoEse\UninstallCleanup\Model\Temando\TemandoSetupSchema as SetupSchema;
 use Magento\Catalog\Model\Product;
 
-class Uninstall implements DataPatchInterface{
+class UninstallTemando implements DataPatchInterface{
     /**
      * @var EavSetupFactory
      */
